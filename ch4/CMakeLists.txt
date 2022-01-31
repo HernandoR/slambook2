@@ -8,7 +8,7 @@ include_directories(${FMT_INCLUDE_DIRS})
 find_package(Sophus REQUIRED)
 include_directories(${Sophus_INCLUDE_DIRS})
 # Eigen
-include_directories("/usr/include/eigen3")
+include_directories("/usr/local/include/eigen3")
 add_executable(useSophus useSophus.cpp)
 target_link_libraries(useSophus ${Sophus_LIBRARIES} ${FMT_LIBRARIES} fmt)
 
