@@ -3,7 +3,7 @@
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 #include "sophus/se3.hpp"
-
+#define FMT_HEADER_ONLY
 using namespace std;
 using namespace Eigen;
 

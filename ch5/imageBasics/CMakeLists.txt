@@ -1,4 +1,7 @@
 project(imageBasics)
+set(CMAKE_BUILD_TYPE=Release)
+
+find_package( OpenCV REQUIRED)
 
 add_executable(imageBasics imageBasics.cpp)
 # 链接OpenCV库
