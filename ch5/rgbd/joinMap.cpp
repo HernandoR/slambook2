@@ -4,6 +4,8 @@
 #include <boost/format.hpp>  // for formating strings
 #include <sophus/se3.hpp>
 #include <pangolin/pangolin.h>
+#include <fmt/core.h>
+#include <fmt/format.h>
 
 using namespace std;
 typedef vector<Sophus::SE3d, Eigen::aligned_allocator<Sophus::SE3d>> TrajectoryType;

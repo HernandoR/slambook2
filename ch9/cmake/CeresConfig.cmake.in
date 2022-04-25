@@ -285,7 +285,7 @@ if (TARGET ${CERES_LIBRARIES} AND
     set(CERES_LOCATION "${CERES_EXPORTED_BUILD_DIR}")
   endif()
 
-  # Check for -std=c++11 flags.
+  # Check for -std=c++14 flags.
   if (CERES_INTERFACE_COMPILE_OPTIONS MATCHES ".*std=c\\+\\+11.*")
     message(STATUS "Ceres version ${CERES_VERSION} detected here: "
       "${CERES_LOCATION} was built with C++11. Ceres target will add "

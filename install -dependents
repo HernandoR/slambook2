@@ -1,0 +1,3 @@
+sudo apt install -y liboctomap-dev
+sudo apt install -y libpcl-dev pcl-tools
+sudo apt install -y libgtest-dev

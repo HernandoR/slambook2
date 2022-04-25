@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <pangolin/pangolin.h>
 #include <sophus/se3.hpp>
+#include <fmt/core.h>
 
 using namespace Sophus;
 using namespace std;
